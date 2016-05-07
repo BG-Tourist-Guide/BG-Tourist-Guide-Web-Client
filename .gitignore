@@ -31,3 +31,15 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# Testing directory
+scratch
+
+# Transpiled JavaScript files
+*.js.map
+
+# TypeScript definitions and cache
+.d.ts
+.tscache
+
+typings
