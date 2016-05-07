@@ -43,3 +43,5 @@ scratch
 .tscache
 
 typings
+
+*.tmp.txt
