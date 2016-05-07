@@ -7,7 +7,6 @@
     '@angular/router',
     '@angular/platform-browser',
     '@angular/platform-browser-dynamic',
-    'app',
     'rxjs'
   ];
 
