@@ -23,10 +23,8 @@ module.exports = function(grunt) {
     },
     watch: {
       ts: {
-        files: ["app/**/*.ts", "!/node_modules/**/*.ts"],
-        tasks: [
-          'ts:default'
-        ],
+        files: ["app/**/*.ts", "!node_modules/**/*.ts"],
+        tasks: ["ts:default"],
         options: {
           atBegin: true,
           interrupt: true
